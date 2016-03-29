@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111FEB6C1CAA6C3D0034615D /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 111FEB6B1CAA6C3D0034615D /* user.png */; };
+		111FEB6F1CAA6D370034615D /* OSPLockOperateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 111FEB6E1CAA6D370034615D /* OSPLockOperateView.m */; };
+		11E222441C9F97460016BDD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E222431C9F97460016BDD4 /* main.m */; };
+		11E222471C9F97460016BDD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E222461C9F97460016BDD4 /* AppDelegate.m */; };
+		11E2224A1C9F97460016BDD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E222491C9F97460016BDD4 /* ViewController.m */; };
+		11E2224D1C9F97460016BDD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E2224B1C9F97460016BDD4 /* Main.storyboard */; };
+		11E2224F1C9F97460016BDD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11E2224E1C9F97460016BDD4 /* Assets.xcassets */; };
+		11E222521C9F97460016BDD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11E222501C9F97460016BDD4 /* LaunchScreen.storyboard */; };
+		11E2225D1C9F97460016BDD4 /* GesUnlockTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2225C1C9F97460016BDD4 /* GesUnlockTests.m */; };
+		11E222681C9F97460016BDD4 /* GesUnlockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E222671C9F97460016BDD4 /* GesUnlockUITests.m */; };
+		11E222791C9F98950016BDD4 /* GesturesUnLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E222771C9F98950016BDD4 /* GesturesUnLock.m */; };
+		11E2227A1C9F98950016BDD4 /* GesturesUnLock.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11E222781C9F98950016BDD4 /* GesturesUnLock.xib */; };
+		11E2227D1C9FC1AF0016BDD4 /* OSPGuestureItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2227C1C9FC1AF0016BDD4 /* OSPGuestureItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11E222591C9F97460016BDD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11E222371C9F97460016BDD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11E2223E1C9F97460016BDD4;
+			remoteInfo = GesUnlock;
+		};
+		11E222641C9F97460016BDD4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11E222371C9F97460016BDD4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11E2223E1C9F97460016BDD4;
+			remoteInfo = GesUnlock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111FEB6B1CAA6C3D0034615D /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+		111FEB6D1CAA6D370034615D /* OSPLockOperateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPLockOperateView.h; sourceTree = "<group>"; };
+		111FEB6E1CAA6D370034615D /* OSPLockOperateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPLockOperateView.m; sourceTree = "<group>"; };
+		11E2223F1C9F97460016BDD4 /* GesUnlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GesUnlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E222431C9F97460016BDD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		11E222451C9F97460016BDD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		11E222461C9F97460016BDD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		11E222481C9F97460016BDD4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		11E222491C9F97460016BDD4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		11E2224C1C9F97460016BDD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11E2224E1C9F97460016BDD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11E222511C9F97460016BDD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11E222531C9F97460016BDD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E222581C9F97460016BDD4 /* GesUnlockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesUnlockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E2225C1C9F97460016BDD4 /* GesUnlockTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesUnlockTests.m; sourceTree = "<group>"; };
+		11E2225E1C9F97460016BDD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E222631C9F97460016BDD4 /* GesUnlockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesUnlockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11E222671C9F97460016BDD4 /* GesUnlockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesUnlockUITests.m; sourceTree = "<group>"; };
+		11E222691C9F97460016BDD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11E222761C9F98950016BDD4 /* GesturesUnLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GesturesUnLock.h; sourceTree = "<group>"; };
+		11E222771C9F98950016BDD4 /* GesturesUnLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GesturesUnLock.m; sourceTree = "<group>"; };
+		11E222781C9F98950016BDD4 /* GesturesUnLock.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GesturesUnLock.xib; sourceTree = "<group>"; };
+		11E2227B1C9FC1AF0016BDD4 /* OSPGuestureItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSPGuestureItem.h; sourceTree = "<group>"; };
+		11E2227C1C9FC1AF0016BDD4 /* OSPGuestureItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSPGuestureItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11E2223C1C9F97460016BDD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11E222551C9F97460016BDD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11E222601C9F97460016BDD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11E222361C9F97460016BDD4 = {
+			isa = PBXGroup;
+			children = (
+				11E222411C9F97460016BDD4 /* GesUnlock */,
+				11E2225B1C9F97460016BDD4 /* GesUnlockTests */,
+				11E222661C9F97460016BDD4 /* GesUnlockUITests */,
+				11E222401C9F97460016BDD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11E222401C9F97460016BDD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11E2223F1C9F97460016BDD4 /* GesUnlock.app */,
+				11E222581C9F97460016BDD4 /* GesUnlockTests.xctest */,
+				11E222631C9F97460016BDD4 /* GesUnlockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11E222411C9F97460016BDD4 /* GesUnlock */ = {
+			isa = PBXGroup;
+			children = (
+				11E222751C9F98950016BDD4 /* GesUnlock */,
+				11E222451C9F97460016BDD4 /* AppDelegate.h */,
+				11E222461C9F97460016BDD4 /* AppDelegate.m */,
+				11E222481C9F97460016BDD4 /* ViewController.h */,
+				11E222491C9F97460016BDD4 /* ViewController.m */,
+				11E2224B1C9F97460016BDD4 /* Main.storyboard */,
+				11E2224E1C9F97460016BDD4 /* Assets.xcassets */,
+				11E222501C9F97460016BDD4 /* LaunchScreen.storyboard */,
+				11E222531C9F97460016BDD4 /* Info.plist */,
+				11E222421C9F97460016BDD4 /* Supporting Files */,
+			);
+			path = GesUnlock;
+			sourceTree = "<group>";
+		};
+		11E222421C9F97460016BDD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				11E222431C9F97460016BDD4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		11E2225B1C9F97460016BDD4 /* GesUnlockTests */ = {
+			isa = PBXGroup;
+			children = (
+				11E2225C1C9F97460016BDD4 /* GesUnlockTests.m */,
+				11E2225E1C9F97460016BDD4 /* Info.plist */,
+			);
+			path = GesUnlockTests;
+			sourceTree = "<group>";
+		};
+		11E222661C9F97460016BDD4 /* GesUnlockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11E222671C9F97460016BDD4 /* GesUnlockUITests.m */,
+				11E222691C9F97460016BDD4 /* Info.plist */,
+			);
+			path = GesUnlockUITests;
+			sourceTree = "<group>";
+		};
+		11E222751C9F98950016BDD4 /* GesUnlock */ = {
+			isa = PBXGroup;
+			children = (
+				111FEB6D1CAA6D370034615D /* OSPLockOperateView.h */,
+				111FEB6E1CAA6D370034615D /* OSPLockOperateView.m */,
+				111FEB6B1CAA6C3D0034615D /* user.png */,
+				11E222761C9F98950016BDD4 /* GesturesUnLock.h */,
+				11E222771C9F98950016BDD4 /* GesturesUnLock.m */,
+				11E222781C9F98950016BDD4 /* GesturesUnLock.xib */,
+				11E2227B1C9FC1AF0016BDD4 /* OSPGuestureItem.h */,
+				11E2227C1C9FC1AF0016BDD4 /* OSPGuestureItem.m */,
+			);
+			path = GesUnlock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11E2223E1C9F97460016BDD4 /* GesUnlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11E2226C1C9F97460016BDD4 /* Build configuration list for PBXNativeTarget "GesUnlock" */;
+			buildPhases = (
+				11E2223B1C9F97460016BDD4 /* Sources */,
+				11E2223C1C9F97460016BDD4 /* Frameworks */,
+				11E2223D1C9F97460016BDD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GesUnlock;
+			productName = GesUnlock;
+			productReference = 11E2223F1C9F97460016BDD4 /* GesUnlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11E222571C9F97460016BDD4 /* GesUnlockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11E2226F1C9F97460016BDD4 /* Build configuration list for PBXNativeTarget "GesUnlockTests" */;
+			buildPhases = (
+				11E222541C9F97460016BDD4 /* Sources */,
+				11E222551C9F97460016BDD4 /* Frameworks */,
+				11E222561C9F97460016BDD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11E2225A1C9F97460016BDD4 /* PBXTargetDependency */,
+			);
+			name = GesUnlockTests;
+			productName = GesUnlockTests;
+			productReference = 11E222581C9F97460016BDD4 /* GesUnlockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11E222621C9F97460016BDD4 /* GesUnlockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11E222721C9F97460016BDD4 /* Build configuration list for PBXNativeTarget "GesUnlockUITests" */;
+			buildPhases = (
+				11E2225F1C9F97460016BDD4 /* Sources */,
+				11E222601C9F97460016BDD4 /* Frameworks */,
+				11E222611C9F97460016BDD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11E222651C9F97460016BDD4 /* PBXTargetDependency */,
+			);
+			name = GesUnlockUITests;
+			productName = GesUnlockUITests;
+			productReference = 11E222631C9F97460016BDD4 /* GesUnlockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11E222371C9F97460016BDD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Perkinelmer;
+				TargetAttributes = {
+					11E2223E1C9F97460016BDD4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = D4GN56FMT5;
+					};
+					11E222571C9F97460016BDD4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 11E2223E1C9F97460016BDD4;
+					};
+					11E222621C9F97460016BDD4 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 11E2223E1C9F97460016BDD4;
+					};
+				};
+			};
+			buildConfigurationList = 11E2223A1C9F97460016BDD4 /* Build configuration list for PBXProject "GesUnlock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11E222361C9F97460016BDD4;
+			productRefGroup = 11E222401C9F97460016BDD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11E2223E1C9F97460016BDD4 /* GesUnlock */,
+				11E222571C9F97460016BDD4 /* GesUnlockTests */,
+				11E222621C9F97460016BDD4 /* GesUnlockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11E2223D1C9F97460016BDD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E222521C9F97460016BDD4 /* LaunchScreen.storyboard in Resources */,
+				111FEB6C1CAA6C3D0034615D /* user.png in Resources */,
+				11E2227A1C9F98950016BDD4 /* GesturesUnLock.xib in Resources */,
+				11E2224F1C9F97460016BDD4 /* Assets.xcassets in Resources */,
+				11E2224D1C9F97460016BDD4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11E222561C9F97460016BDD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11E222611C9F97460016BDD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11E2223B1C9F97460016BDD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E2227D1C9FC1AF0016BDD4 /* OSPGuestureItem.m in Sources */,
+				11E2224A1C9F97460016BDD4 /* ViewController.m in Sources */,
+				11E222791C9F98950016BDD4 /* GesturesUnLock.m in Sources */,
+				111FEB6F1CAA6D370034615D /* OSPLockOperateView.m in Sources */,
+				11E222471C9F97460016BDD4 /* AppDelegate.m in Sources */,
+				11E222441C9F97460016BDD4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11E222541C9F97460016BDD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E2225D1C9F97460016BDD4 /* GesUnlockTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11E2225F1C9F97460016BDD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11E222681C9F97460016BDD4 /* GesUnlockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11E2225A1C9F97460016BDD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11E2223E1C9F97460016BDD4 /* GesUnlock */;
+			targetProxy = 11E222591C9F97460016BDD4 /* PBXContainerItemProxy */;
+		};
+		11E222651C9F97460016BDD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11E2223E1C9F97460016BDD4 /* GesUnlock */;
+			targetProxy = 11E222641C9F97460016BDD4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11E2224B1C9F97460016BDD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11E2224C1C9F97460016BDD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11E222501C9F97460016BDD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11E222511C9F97460016BDD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11E2226A1C9F97460016BDD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11E2226B1C9F97460016BDD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11E2226D1C9F97460016BDD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GesUnlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Perkinelmer.GesUnlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		11E2226E1C9F97460016BDD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GesUnlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Perkinelmer.GesUnlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		11E222701C9F97460016BDD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GesUnlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Perkinelmer.GesUnlockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GesUnlock.app/GesUnlock";
+			};
+			name = Debug;
+		};
+		11E222711C9F97460016BDD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GesUnlockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Perkinelmer.GesUnlockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GesUnlock.app/GesUnlock";
+			};
+			name = Release;
+		};
+		11E222731C9F97460016BDD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GesUnlockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Perkinelmer.GesUnlockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GesUnlock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		11E222741C9F97460016BDD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GesUnlockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Perkinelmer.GesUnlockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GesUnlock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11E2223A1C9F97460016BDD4 /* Build configuration list for PBXProject "GesUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E2226A1C9F97460016BDD4 /* Debug */,
+				11E2226B1C9F97460016BDD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11E2226C1C9F97460016BDD4 /* Build configuration list for PBXNativeTarget "GesUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E2226D1C9F97460016BDD4 /* Debug */,
+				11E2226E1C9F97460016BDD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11E2226F1C9F97460016BDD4 /* Build configuration list for PBXNativeTarget "GesUnlockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E222701C9F97460016BDD4 /* Debug */,
+				11E222711C9F97460016BDD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11E222721C9F97460016BDD4 /* Build configuration list for PBXNativeTarget "GesUnlockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E222731C9F97460016BDD4 /* Debug */,
+				11E222741C9F97460016BDD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11E222371C9F97460016BDD4 /* Project object */;
+}
