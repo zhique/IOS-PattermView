@@ -98,7 +98,7 @@
     
     if (self.reSet==YES) {
         if (self.rightPassword!=nil) {
-            self.lblHint.text=@"请绘制原始密码";
+            self.lblHint.text=@"请绘制原始密码.";
         }
         else{
             self.lblHint.text=@"您从未设置过手势密码，直接绘制";
