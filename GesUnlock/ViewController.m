@@ -35,18 +35,21 @@
         case 10:
         {   //set
             GesturesUnLock *vc = [[GesturesUnLock alloc]initWithExpectedMode:SetMode];
+            vc.modalPresentationStyle = UIModalPresentationOverFullScreen;
             [self presentViewController:vc animated:YES completion:nil];
         }
             break;
         case 20:
         {   //change
             GesturesUnLock *vc = [[GesturesUnLock alloc]initWithExpectedMode:EditMode];
+            vc.modalPresentationStyle = UIModalPresentationOverFullScreen;
             [self presentViewController:vc animated:YES completion:nil];
         }
             break;
         case 30:
         {   //unlock
             GesturesUnLock *vc = [[GesturesUnLock alloc]initWithExpectedMode:UnlockMode];
+            vc.modalPresentationStyle = UIModalPresentationOverFullScreen;
             [self presentViewController:vc animated:YES completion:nil];
         }
             break;
